@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;900&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -63,11 +64,13 @@
     left: 50%;
     transform: translate(-50%);
     height: 15vh;
+
     h1 {
       font-size: 5rem;
       letter-spacing: 0.3rem;
       color: #000;
       font-weight: 400;
+      font-family: "Montserrat", sans-serif;
     }
   }
 }
@@ -148,6 +151,7 @@
     padding: 1rem;
   }
 }
+
 /* MEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEDIA */
 @media screen and (max-width: 1024px) {
   .navbar-wrapper {
@@ -214,61 +218,58 @@
     justify-content: space-around;
     width: 100%;
     position: absolute;
-    top: 4.4rem;
+    top: 3.2rem;
     z-index: 1;
     background-color: #fff;
-    
+
     .nav-link {
-        width: 30%;
-        border-radius: 0;
-        font-size: 0.8rem;
-        padding: 0.4rem;
-        background-color: #fff;
-        
+      width: 30%;
+      border-radius: 0;
+      font-size: 0.8rem;
+      padding: 0rem;
+      background-color: #fff;
     }
   }
-
   .landing {
-    &-wrapper {
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 80vh;
+    &-wrapper {
+      height: 100vh;
+      background-image: url("../images/background/henry-co-M3KfixgdCko-unsplash.jpg");
+      background-position: center;
+      background-size: cover;
     }
-    &-container {
-      &-text {
-        font-size: 0.9rem;
-        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-      }
-    }
+    
 
     &-logo {
       width: 100%;
       position: absolute;
       height: 10vh;
+      background-color: #fff;
       h1 {
-        font-size: 2rem;
+        font-size: 1.8rem;
         letter-spacing: 0.2rem;
+        font-weight: 600;
+        
       }
     }
+  }
+  .hide-mobile {
+      display: none;
   }
   .about {
     &-wrapper {
       padding: 1rem;
       flex-direction: column;
-      
     }
     &-text {
-      margin:1rem;
+      margin: 1rem;
       line-height: 1.7rem;
       font-size: 1.1rem;
       font-weight: 600;
     }
-    &-image {
-      img {
-        width: 100%;
-      }
-    }
+    
   }
 
   .services {
@@ -280,7 +281,7 @@
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
       gap: 1rem;
-      padding: 1rem
+      padding: 1rem;
     }
     &-item {
       display: flex;
@@ -311,7 +312,7 @@
 
   .contact {
     &-wrapper {
-      padding: 1rem 2rem;
+      padding: 1rem 1rem;
       height: 15rem;
       h1 {
         font-size: 3rem;
@@ -324,6 +325,9 @@
       align-items: center;
       p {
         font-size: 1rem;
+      }
+      address {
+          font-size: 1rem;
       }
     }
     &-column {

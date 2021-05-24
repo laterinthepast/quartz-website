@@ -10,11 +10,11 @@ const Landing = () => {
                 <h1>Quartz Scientific</h1>
             </div>
             <div className="landing-wrapper">
-                <div className="landing-container-image">
+                <div className="landing-container-image hide-mobile">
                     <img src={image1} alt="" />
                 </div>
 
-                <div className="landing-container-text">
+                <div className="landing-container-text hide-mobile">
                     <h1>Chemical Analysis and Consultancy for the Construction Industry</h1>
                 </div>
 

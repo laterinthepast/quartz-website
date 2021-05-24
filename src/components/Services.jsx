@@ -19,7 +19,7 @@ const Services = () => {
                     <h1>Physical testing</h1>
                     <div className="services-insert">
                         <img src={img2} alt=""/>
-                        <p>Analysis of a range of construction materials to British, European and American standards. Unusual procedures can be accommodated from supplied documentation or our own extensive library.</p>
+                        <p>Physical testing of a range of construction materials to British, European and American standards.</p>
                     </div>
                 </div>
                 
@@ -27,14 +27,14 @@ const Services = () => {
                     <h1>Site survey</h1>
                     <div className="services-insert">
                         <img src={img3} alt=""/>
-                        <p>Analysis of a range of construction materials to British, European and American standards. Unusual procedures can be accommodated from supplied documentation or our own extensive library.</p>
+                        <p>Sites can be surveyed, in co-operation with trusted companies, for safety, prospective purchase or investigation of structural condition.</p>
                     </div>
                 </div>
                 <div className="services-item">
                     <h1>Expert witness</h1>
                     <div className="services-insert">
                         <img src={img4} alt=""/>
-                        <p>Analysis of a range of construction materials to British, European and American standards. Unusual procedures can be accommodated from supplied documentation or our own extensive library.</p>
+                        <p>Mrs Iren Jasko MSc EurChem CSci CChem FRSC is available to act in an expert witness capacity to help resolve disputes and in formal civil and criminal legal proceedings</p>
                     </div>
                 </div>
 
