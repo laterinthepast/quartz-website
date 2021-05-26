@@ -87,7 +87,7 @@ Technological advances in the industry and the requirement during restoration of
                 </Row>
 
                 <Row className="contact" id="contact">
-                    <Col sm={12}>
+                    <Col sm={12} className="contact-column">
 
 
                         <p>44(0) 1923213983</p>
